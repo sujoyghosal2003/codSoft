@@ -1,0 +1,146 @@
+@import url('back3.jpg');
+
+body {
+    scrollbar-width: 0;
+    background: url(back4.jpg);
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.sectiontop{
+    width: 100%;
+    height: 100%;    
+    overflow: hidden;
+    position: relative;
+    background-image: url(back4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: change 10s infinite ease-in-out;
+}
+
+/* @keyframes change{
+    0%{
+        background-image: url(123.jpg);
+        
+    }
+    20%{
+        background-image: url(11.jpg);
+        
+    }
+    40%{
+        background-image: url(12.jpg);
+        
+    }
+    60%{
+        background-image: url(126.jpg);
+        
+    }
+    80%{
+        background-image: url(9.jpg);
+        
+    }
+    100%{
+        background-image: url(10.jpg);
+        
+    }
+} */
+
+#body {
+    width: 100vw;
+    overflow-x: auto;
+    height: 170vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vh;
+    margin-bottom: 30vh 0;
+
+}
+
+#body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.a {
+    border: 1px solid #717377;
+    padding: 10px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    width: 50rem;
+    margin: 5vh 5vh;
+    flex-shrink: 0;
+
+}
+
+#body h1 {
+    font-size: xx-large;
+}
+
+.chick {
+    height: 45vh;
+}
+
+
+
+#about {
+    margin-left: 10vh;
+    background-color: whitesmoke;
+    padding: 3rem;
+    border-radius: 15%;
+    margin-right: 10vh;
+}
+
+#about h1 {
+    font-size: xx-large;
+}
+
+#services {
+    margin-left: 10vh;
+    background-color: whitesmoke;
+    padding: 3rem;
+    border-radius: 25%;
+    margin-right: 10vh;
+}
+
+#services h1 {
+    font-size: xx-large;
+}
+
+#services h2 {
+    font-size: large;
+}
+
+#contact {
+    margin-left: 10vh;
+    background-color: whitesmoke;
+    padding: 3rem;
+    border-radius: 25%;
+    margin-right: 10vh;
+}
+
+#contact h1 {
+    font-size: xx-large;
+}
+
+#s{
+    font-family: 'Abril Fatface', cursive;
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+
+#o{
+    font-family: 'Abril Fatface', cursive;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.white{
+    color: aliceblue;
+}
