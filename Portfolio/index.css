@@ -4,6 +4,12 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
+:root{
+  --color-primary:#29d882;
+  --color-primary-variant:#00bd95;
+  --color-white:#ffff;
+  
+}
 
 
 :root{
@@ -164,7 +170,22 @@ img{
 .show{
   right: 0;
 }
-
+btn{
+  display: inline-block;
+  width: fit-content;
+  padding: 14px 32px;
+  font-weight: 500;
+  font-size: 19px;
+  border-radius: 30px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: 0 02px 06px rgba(0, 0, 0, 0.4);
+  transition: var(--transition);
+}
+.btn:hover{
+  background: var(--color-primary-variant);
+  box-shadow: none;
+}
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
